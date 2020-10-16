@@ -1,0 +1,10 @@
+version: "3.1"
+
+services:
+  ppm:
+    image: phppm/nginx
+    command: --debug=1 --app-env=dev --static-directory=public/
+    volumes:
+      - ./:/var/www
+    ports:
+      - "80:80"
