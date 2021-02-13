@@ -1,4 +1,8 @@
-# ppm-test
+# ppm-test !! currently unstable !!
+Acts as kind of skeleton for ppm as a parallel php processor
+
+
+## start up
 docker-compose.yml is just for testing purposes.
 
 start with 
